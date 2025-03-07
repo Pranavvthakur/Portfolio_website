@@ -48,8 +48,8 @@ with col1:
     image = Image.open("pranav_photo.jpg")  # Replace with your image file path
     st.markdown(f"<img src='data:image/jpeg;base64,{image_to_base64(image)}' class='profile-img'>", unsafe_allow_html=True)
 with col2:
-    st.markdown("<p class='title'>🚀 Hey There, I am Pranav Thakur</p>", unsafe_allow_html=True)
-    st.markdown("<p class='subtitle'>Data Engineer | Data Analyst | Big Data Enthusiast</p>", unsafe_allow_html=True)
+    st.markdown("<p class='title'>🚀 Hey There, I am Pranavsing Thakur</p>", unsafe_allow_html=True)
+    st.markdown("<p class='subtitle'>Data Engineer | Data Analyst | Big Data Enthusiast | Python Programmer</p>", unsafe_allow_html=True)
 
 # About Me Section
 st.markdown("<p class='section-title' id='about'>👨‍💻 About Me</p>", unsafe_allow_html=True)
@@ -96,8 +96,8 @@ st.sidebar.header("📬 Connect with Me")
 st.sidebar.markdown("""
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Profile-blue?style=flat&logo=linkedin)](https://www.linkedin.com/in/pranavsing-thakur-318215227)  
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-lightgray?style=flat&logo=github)](https://github.com/Pranavvthakur)  
-📧 Email: pranavthakur@example.com  
-📞 Mobile: +91 1234567890
+📧 Email: pranavthakur200@gmail.com  
+📞 Mobile: +91 9322982290
 """)
 
 st.markdown("<p class='section-title' id='contact'>📩 Let's Connect!</p>", unsafe_allow_html=True)
@@ -105,5 +105,5 @@ st.write("I am always open to collaboration and learning new technologies. Let's
 
 # Call-to-Action Button
 st.markdown("""
-    <a href='mailto:pranavthakur@example.com' class='button'>📩 Contact Me</a>
+    <a href='mailto:pranavthakur200@gmail.com' class='button'>📩 Contact Me</a>
 """, unsafe_allow_html=True)
